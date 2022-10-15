@@ -1,0 +1,86 @@
+/*  DASHBOARD */
+
+.fredoka {
+    font-family: 'Fredoka One', cursive !important;
+}
+
+
+@media (min-width:960px) {
+    .sidenav-header {
+        text-align: center;
+        margin-bottom: 30px;
+        height: 100px;
+    }
+}
+
+.navbar-vertical.navbar-light {
+    border-color: rgba(0, 0, 0, .05);
+    background-color: #f6f9fc;
+    z-index: 5;
+    border-style: solid;
+    box-shadow: 0 0 2rem 0 rgba(136, 152, 170, .15);
+}
+
+@media (min-width: 992px) {
+    .navbar-vertical.navbar-expand-lg {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        display: block;
+        overflow-y: auto;
+        width: 100%;
+        max-width: 260px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-vertical.navbar-expand-lg .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+        margin-right: -1.5rem;
+        margin-left: -1.5rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        flex: 1 1;
+        align-items: stretch;
+    }
+    .navbar-vertical .dash-link {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .navbar-vertical.navbar-expand-lg .navbar-collapse>* {
+        min-width: 100%;
+    }
+    .navbar-vertical.navbar-expand-lg .navbar-nav {
+        flex-direction: column;
+        margin-right: -1.5rem;
+        margin-left: -1.5rem;
+    }
+}
+
+.navbar-vertical+.main-content {
+    margin-left: 240px;
+    transition: all .15s ease;
+    margin-right: 30px;
+}
+
+@media (max-width: 992px) {
+    .navbar-vertical+.main-content {
+        margin-left: 20px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .sidenav.fixed-left+.main-content {
+        transition: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .sidenav.fixed-right+.main-content {
+        transition: none;
+    }
+}
