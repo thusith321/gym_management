@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+  }
+
+.mainContainerA {
+
+    background-color: rgba(193, 193, 193, 0.964);
+    border: 2px solid rgb(51, 50, 50);
+    text-align: center;
+    height: 80%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  .inputStylee {
+    text-align: center;
+    background-color: hsl(180, 1%, 45%);
+  }
+  
+  .outStyle {
+    text-align: center;
+    background-color: rgba(242, 244, 247, 0.83);
+  }
+
+  input[type=textt], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 25px 0;
+    display: inline-block;
+    border: 1px solid rgb(58, 58, 58);
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+
+  .inn {
+    color: rgb(139, 138, 138);
+    text-shadow: 2px 2px 4px #000000;
+   
+
+  }
+  .inputStylee{
+    height:60px;
+    width: 100px;
+    font-size:14pt;
+  }
+
+ 
